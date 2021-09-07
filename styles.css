@@ -1,0 +1,133 @@
+/* overall styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 90px 170px;
+    background-image: radial-gradient(#f1ebff 50%, #e0cee0 100%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding: 50px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 80px;
+}
+
+.header {
+    margin: 0;
+    padding: 0 0 8px 0;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.content {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.section {
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.contact-details-content span,
+.education-content span,
+.work-content span,
+.projects-content span {
+    font-weight: 600;
+}
+
+/* main-header */
+.main-header,
+.contact-details {
+    margin: 0 0 30px 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    border-radius: 80px;
+    overflow: hidden;
+}
+
+.main-header-content,
+.contact-details-content {
+    margin: 0;
+    padding: 15px;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: Cinzel, serif;
+    background-color: #e0cee0;
+}
+
+/* image/bio */
+/* image */
+.img-bio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-img {
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    width: fit-content;
+}
+
+.profile-img img {
+    width: 100%;
+    max-width: 300px;
+    min-width: 260px;
+    height: auto;
+    border-radius: 80px;
+}
+
+/* bio */
+.bio {
+    grid-area: bio;
+    margin: 0;
+    padding: 0 0 0 15px;
+    align-self: center;
+}
+
+/* skills & competencies and education */
+.skills-education {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* work experience */
+.work-header {
+    text-align: center;
+}
+
+.work-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* contact info */
+.contact-details {
+    margin: 0;
+}
+
+.contact-details-content {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif
+}
